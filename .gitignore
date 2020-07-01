@@ -1,0 +1,24 @@
+artifacts
+node_modules
+dist
+.npmrc
+tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log
+.idea
+dev-certs/*.pem
+.serverless
+devops/**/.env
+.terraform
+.terragrunt-cache
+coverage
+.DS_Store
+build
+_es-logs
+cypress/videos
+cypress/screenshots
+
+# keep this dist folder for builds
+!local-veneer/**/dist
+!local-serverless-es-logs/**/dist
