@@ -1,0 +1,31 @@
+.logoutbutton {
+    margin-left: 1080px;
+}
+
+.conatiner {
+    display: flex !important ;
+}
+
+.buttonwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.leftcontainer {
+    width: 30%;
+}
+
+.login {
+    width: 300px;
+}
+
+.adminlogin {
+    margin-top: 20px;
+}
+
+.image {
+    margin-top: 80px;
+}
